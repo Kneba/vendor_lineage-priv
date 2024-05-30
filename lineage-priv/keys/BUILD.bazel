@@ -1,7 +1,8 @@
 filegroup(
-    name = \"android_certificate_directory\",
+    name = "android_certificate_directory",
     srcs = glob([
-        \"*.pk8\",
-        \"*.pem\",
+        "*.pk8",
+        "*.pem",
     ]),
-    visibility = [\"//visibility:public\"],
+    visibility = ["//visibility:public"],
+)
